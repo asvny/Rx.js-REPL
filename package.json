@@ -1,0 +1,29 @@
+{
+  "name": "rx.js-repl",
+  "version": "1.0.0",
+  "description": "REPL for rx.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annamalai-saro/Rx.js-REPL.git"
+  },
+  "keywords": [
+    "rx.js",
+    "repl",
+    "observable"
+  ],
+  "dependencies": {
+    "rx": "^3.1.2",
+    "rx-node": "^1.0.1",
+    "repl.history": "^0.1.3"
+  },
+  "author": "annamalai.s",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/annamalai-saro/Rx.js-REPL/issues"
+  },
+  "homepage": "https://github.com/annamalai-saro/Rx.js-REPL#readme"
+}

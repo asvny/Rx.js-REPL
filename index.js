@@ -4,9 +4,11 @@ var rxNode = require('rx-node');
 
 console.log('Welcome to Rx.js REPL !');
 
-function a() {
+module.exports= function() {
+
 	var repl   =require('repl'),
-		rxREPL =repl.start({ prompt : 'RX > '});
+		rxREPL =repl.start({ prompt : 'rx > '});
+	    require('repl.history')(rxREPL, process.env.HOME + '/.rx_history');
 
 		rxREPL.context.rx=rx;
 		rxREPL.context.rxNode=rxNode;
@@ -15,6 +17,6 @@ function a() {
 
 			rxREPL.context[func]=rx[func];
 		})
-}
+};
 
-a();
+
