@@ -1,3 +1,3 @@
-# Rx.js (REPL)
+### Rx.js (REPL)
 
-#####  Read Eval Print Loop
+ `Rx.js - Read Eval Print Loop`
